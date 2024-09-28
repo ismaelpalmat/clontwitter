@@ -17,5 +17,6 @@
 
 <%= form_with url: tweets_path, method: :get do |form|%>
   <%= form.text_field :query_text, placeholder: t('Query text'), value: params[:query_text]%>
+  <%=raw pagy_nav(@pagy)%>
 <%end%>
 
