@@ -14,7 +14,7 @@
   #   print @tweets
   #   end
 
-  10.times do
+  30.times do
     Tweet.create(
       username: Faker::Lorem.sentence(word_count: 2),
       description: Faker::Lorem.sentence(word_count: 10)
