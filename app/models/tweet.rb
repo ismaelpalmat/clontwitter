@@ -6,3 +6,5 @@ class Tweet < ApplicationRecord
     id: "B"
     }
 end
+
+
