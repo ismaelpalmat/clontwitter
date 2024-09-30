@@ -1,2 +1,12 @@
 // Entry point for your Sass build
 
+// application.scss
+
+// Importación de Bootstrap (si lo estás utilizando)
+@import "bootstrap";
+
+// Importación de otros archivos Sass (puedes añadir más según tu estructura)
+@import "variables"; // Para variables globales
+@import "mixins"; // Para mixins
+@import "layout"; // Para estilos de diseño
+@import "components"; // Para estilos de componentes
