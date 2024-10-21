@@ -25,7 +25,7 @@ gem "pg_search", "~> 2.3"
 
 gem "pagy", "~> 9.0"
 
-gem "faker", "~> 3.4" 
+gem "faker", "~> 3.5" 
 
 # Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]
 # gem "kredis"
